@@ -30,12 +30,15 @@ void UserMain(void)
 	tls_gpio_cfg(WM_IO_PB_18, WM_GPIO_DIR_OUTPUT, WM_GPIO_ATTR_FLOATING);
 	tls_gpio_cfg(WM_IO_PB_26, WM_GPIO_DIR_OUTPUT, WM_GPIO_ATTR_FLOATING);
 	tls_gpio_cfg(WM_IO_PB_25, WM_GPIO_DIR_OUTPUT, WM_GPIO_ATTR_FLOATING);
+<<<<<<< remotes/origin/Chase-Onboard-Leds
 	tls_gpio_write(WM_IO_PB_05,1);
 	printf("\n On \n");
 	tls_os_time_delay(100);
 	tls_gpio_write(WM_IO_PB_05,0);
 	printf("\n Off \n\n\n");
 	tls_os_time_delay(100);
+=======
+>>>>>>> local
 	while(1){
 		tls_gpio_write(WM_IO_PB_11,1);
 		printf("11 On \n");
